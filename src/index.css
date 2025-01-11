@@ -1,0 +1,33 @@
+*,*::before,*::after{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+
+    font-family: "Roboto", sans-serif;
+    background-color: #EFF2F5;
+}
+header,main,.container{
+    max-width: 1440px;
+    margin: 0;
+    margin-inline:auto;
+    width: 100%;
+}
+footer{
+    background-color: #fff;
+    margin-top: 3rem;
+}
+ul{
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+    font-family: inherit;
+    background-color: transparent;
+    border: none;
+}
